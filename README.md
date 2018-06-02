@@ -25,7 +25,7 @@ Our class has a server which transmit event infomation. All the event informatio
 3. **RunClientThread.java**: First establish TCP sockeck with server to acquire the history data and close the TCP socket. Then establish UDP socket with the server to acquire updating broadcast
 4. **ClockThread.java**: Clock GUI, switch current time, set alarms and automated alarms, future event list display
 ### data file
-**events.properties**: format>>"start_time**\t**end_time**\t**place**\t**activity"
+**events.properties**: format>>start_time **\t** end_time **\t** place **\t** activity
 ## User Guide
 1. To make the server work, RUN **RunServer**
 2. To make the client work, RUN **RunClient**
